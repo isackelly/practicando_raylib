@@ -6,4 +6,4 @@ para compilar:
 `make`
 
 para probar:
-./first
+`./first`
