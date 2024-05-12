@@ -40,10 +40,8 @@ int main(void)
             ClearBackground(RAYWHITE);
                         DrawText("Usa las llaves derecho, izquierda, arriba, y bajo", 190, 200, 20, LIGHTGRAY);
 
-                        Vector3 V3 = {
-              screenWidth/2.0f + 100.0f,
-              screenHeight/2.0f,
-              100.0f};
+// Removiendo variable no usada V3
+//                        Vector3 V3 = { screenWidth/2.0f + 100.0f, screenHeight/2.0f, 100.0f};
                         //mueven en perspectiva con foco en el medio pantalla.
             DrawTriangle(perspective((Vector3){ screenWidth/4.0f, 80.0f, distance}),
                          perspective((Vector3){ screenWidth/4.0f - 50.0f, 150.0f, distance}),
